@@ -11,6 +11,7 @@ Route::get('/', function () {
 Route::get('/admin', [App\Http\Controllers\AdminHomeController::class, 'index'])->name('admin.index');
 Route::get('/admin/customers', [App\Http\Controllers\CustomerController::class, 'index'])->name('admin.customers');
 Route::get('/admin/products', [App\Http\Controllers\ProductController::class, 'index'])->name('admin.products');
+Route::get('/admin/category', [App\Http\Controllers\ProductController::class, 'category'])->name('admin.category');
 
 
 
