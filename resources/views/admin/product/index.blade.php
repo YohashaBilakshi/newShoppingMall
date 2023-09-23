@@ -27,6 +27,7 @@
                     <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Product</li>
+                    <li class="breadcrumb-item active" aria-current="page">Product List</li>
                     </ol>
                 </nav>
                 </div>

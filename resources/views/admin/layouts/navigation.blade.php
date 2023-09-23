@@ -19,6 +19,14 @@
             </a>
           </li>
           <li class="nav-item menu-items">
+            <a class="nav-link" href="{{ route('user.list') }}">
+              <span class="menu-icon">
+                <i class="mdi-account-circle"></i>
+              </span>
+              <span class="menu-title">Users</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <span class="menu-icon">
                 <i class="mdi mdi-laptop"></i>
@@ -42,47 +50,46 @@
               <span class="menu-title">Customer</span>
             </a>
           </li>
-          {{-- <li class="nav-item menu-items">
-            <a class="nav-link" href="pages/charts/chartjs.html">
+           <li class="nav-item menu-items">
+            <a class="nav-link" href="{{ route('admin.orders')}}">
               <span class="menu-icon">
                 <i class="mdi mdi-chart-bar"></i>
               </span>
-              <span class="menu-title">Charts</span>
+              <span class="menu-title">Oders</span>
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="pages/icons/mdi.html">
+            <a class="nav-link" href="{{route('admin.transactions')}}">
               <span class="menu-icon">
                 <i class="mdi mdi-contacts"></i>
               </span>
-              <span class="menu-title">Icons</span>
+              <span class="menu-title">Transactions</span>
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+            <a class="nav-link" data-toggle="collapse" href="" aria-expanded="false" aria-controls="auth">
               <span class="menu-icon">
                 <i class="mdi mdi-security"></i>
               </span>
-              <span class="menu-title">User Pages</span>
+              <span class="menu-title">Reports</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{route('admin.daily_reports')}}"> Daily Reports </a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{route('admin.weekly_reports')}}"> Weekly Reports </a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{route('admin.monthly_reports')}}"> Monthly Reports </a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{route('admin.annual_reports')}}"> Anual Reports </a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="http://www.bootstrapdash.com/demo/corona-free/jquery/documentation/documentation.html">
+            <a class="nav-link" href="{{route('admin.settings')}}">
               <span class="menu-icon">
                 <i class="mdi mdi-file-document-box"></i>
               </span>
-              <span class="menu-title">Documentation</span>
+              <span class="menu-title">Setting</span>
             </a>
-          </li> --}}
+          </li> 
         </ul>
       </nav>
