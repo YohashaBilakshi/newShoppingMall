@@ -14,7 +14,13 @@ class AdminHomeController extends Controller
     public function users(){
 
         return view('admin.admins.index'); 
+        // return view('admin.admins.create'); 
 
+    }
+
+    public function edit($id){
+        
+        return view('admin.admins.edit'); 
     }
 
 }

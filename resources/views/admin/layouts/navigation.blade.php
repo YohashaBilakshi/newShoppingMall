@@ -21,7 +21,7 @@
           <li class="nav-item menu-items">
             <a class="nav-link" href="{{ route('user.list') }}">
               <span class="menu-icon">
-                <i class="mdi-account-circle"></i>
+                <i class="mdi mdi-account"></i>
               </span>
               <span class="menu-title">Users</span>
             </a>
@@ -29,7 +29,7 @@
           <li class="nav-item menu-items">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <span class="menu-icon">
-                <i class="mdi mdi-laptop"></i>
+                <i class="mdi mdi-shopping"></i>
               </span>
               <span class="menu-title">Products</span>
               <i class="menu-arrow"></i>
@@ -45,7 +45,7 @@
           <li class="nav-item menu-items">
             <a class="nav-link" href="/admin/customers">
               <span class="menu-icon">
-                <i class="mdi mdi-table-large"></i>
+                <i class="mdi mdi-account-multiple-outline"></i>
               </span>
               <span class="menu-title">Customer</span>
             </a>
@@ -53,7 +53,7 @@
            <li class="nav-item menu-items">
             <a class="nav-link" href="{{ route('admin.orders')}}">
               <span class="menu-icon">
-                <i class="mdi mdi-chart-bar"></i>
+                <i class="mdi mdi-layers"></i>
               </span>
               <span class="menu-title">Oders</span>
             </a>
@@ -61,15 +61,16 @@
           <li class="nav-item menu-items">
             <a class="nav-link" href="{{route('admin.transactions')}}">
               <span class="menu-icon">
-                <i class="mdi mdi-contacts"></i>
+                <i class="mdi mdi-swap-horizontal"></i>
               </span>
               <span class="menu-title">Transactions</span>
             </a>
           </li>
+          
           <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="" aria-expanded="false" aria-controls="auth">
+            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
               <span class="menu-icon">
-                <i class="mdi mdi-security"></i>
+                <i class="mdi mdi-file-document"></i>
               </span>
               <span class="menu-title">Reports</span>
               <i class="menu-arrow"></i>
@@ -86,7 +87,7 @@
           <li class="nav-item menu-items">
             <a class="nav-link" href="{{route('admin.settings')}}">
               <span class="menu-icon">
-                <i class="mdi mdi-file-document-box"></i>
+                <i class="mdi mdi-settings"></i>
               </span>
               <span class="menu-title">Setting</span>
             </a>
