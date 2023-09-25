@@ -1,0 +1,36 @@
+
+header{
+    top: 0;
+     display: flex;
+     justify-content:space-between ;
+     background-color: rgb(240, 16, 16);
+     margin: 0;
+     padding: 0;
+     border: 0;
+ 
+ }
+ header #logo{
+     font-size: 25px;
+     padding-left: 30px;
+ 
+ }
+ header #h_items
+ {
+     display: flex;
+     padding: 20px;
+ 
+ }
+ 
+ header #h_items a{
+     display: flex;
+     padding-left: 10px;    
+     margin-left: 10px;
+     font-size: 20px;
+     color: black;
+     text-decoration: none
+ }
+  #body{
+     background: radial-gradient(white,black);
+     max-height: 100vh;
+     height: 1000px;
+ }

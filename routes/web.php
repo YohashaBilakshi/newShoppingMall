@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('index');
+    return view('Users.home');
 });
 
 Route::get('/admin', [App\Http\Controllers\AdminHomeController::class, 'index'])->name('admin.index');
