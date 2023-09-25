@@ -20,8 +20,12 @@ Route::get('/admin/daily_reports', [App\Http\Controllers\ReportsController::clas
 Route::get('/admin/weekly_reports', [App\Http\Controllers\ReportsController::class, 'weeklyReports'])->name('admin.weekly_reports');
 Route::get('/admin/monthly_reports', [App\Http\Controllers\ReportsController::class, 'monthlyReports'])->name('admin.monthly_reports');
 Route::get('/admin/annual_reports', [App\Http\Controllers\ReportsController::class, 'annualReports'])->name('admin.annual_reports');
-Route::get('/admin/user/edit/{id}', [App\Http\Controllers\AdminHomeController::class, 'edit'])->name('user.edit');
+// Route::get('/admin/user/edit/{id}', [App\Http\Controllers\AdminHomeController::class, 'edit'])->name('user.edit');
+// Route::get('/admin/user/edit', [App\Http\Controllers\AdminHomeController::class, 'edit'])->name('user.edit');
 
+// Route::post('/admin/user/edit/{id}', [App\Http\Controllers\AdminHomeController::class, 'edit'])->name('user.edit');
+// Route::get('/admin/user/edit/{id}', [App\Http\Controllers\AdminHomeController::class, 'edit'])->name('user.edit');
+Route::match(['get', 'post'], '/admin/user/edit/{id}', [App\Http\Controllers\AdminHomeController::class, 'edit'])->name('user.edit');
 
 
 

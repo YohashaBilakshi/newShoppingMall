@@ -67,9 +67,13 @@
                                         <td> May 15, 2015 </td>
                                         <td> May 15, 2015 </td>
                                         <td> 
+                                            {{-- <a href="{{ route('user.edit', ['id' => 1]) }}" class="btn btn-primary btn-icon-text">
+                                                Edit <i class="mdi mdi-file-check btn-icon-append"></i>
+                                            </a> --}}
                                             <a href="{{ route('user.edit', ['id' => 1]) }}" class="btn btn-primary btn-icon-text">
                                                 Edit <i class="mdi mdi-file-check btn-icon-append"></i>
                                             </a>
+
                                             <a href="{{ route('user.edit', ['id' => 1]) }}" class="btn btn-danger btn-icon-text">
                                                 Delete <i class="mdi mdi-delete"></i>
                                             </a>

@@ -81,11 +81,11 @@
                 <div class="modal fade" id="createUserModal" tabindex="-1" role="dialog" aria-labelledby="createUserModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered custom-modal-width" role="document">
                         <div class="modal-content">
-                            @include('admin/product/productEdit')
+                            @include('admin/admins/create')
                         </div>
                     </div>
                 </div> 
-
+                
             </div>
 
                 @include('admin/layouts/footer')

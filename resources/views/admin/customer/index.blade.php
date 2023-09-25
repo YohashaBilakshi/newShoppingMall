@@ -31,46 +31,49 @@
                 </nav>
                 </div>
                 <div class="row">
-                
+                    
+                    <div class="col-lg-6 grid-margin stretch-card">
+                        <a class="nav-link btn btn-primary create-new-button" id="createNew" data-toggle="dropdown" aria-expanded="false" onclick="showCreate()">+ Register New User</a>
+                    </div>
 
-                <div class="col-lg-12 grid-margin stretch-card">
-                    <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Cutomer List</h4>
-                        </p>
-                        <div class="table-responsive">
-                        <table class="table table-dark">
-                            <thead>
-                                <tr>
-                                    <th> # </th>
-                                    <th> First name </th>
-                                    <th> Email </th>
-                                    <th> Contact No </th>
-                                    <th> Actions </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td> 1 </td>
-                                    <td> Herman Beck </td>
-                                    <td> $ 77.99 </td>
-                                    <td> May 15, 2015 </td>
-                                    <td> May 15, 2015 </td>
-                                </tr>
-                                <tr>
-                                    <td> 2 </td>
-                                    <td> Messsy Adam </td>
-                                    <td> $245.30 </td>
-                                    <td> July 1, 2015 </td>
-                                    <td> July 1, 2015 </td>
-                                </tr>
-                           
-                            </tbody>
-                        </table>
+                    <div class="col-lg-12 grid-margin stretch-card">
+                        <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Cutomer List</h4>
+                            </p>
+                            <div class="table-responsive">
+                            <table class="table table-dark">
+                                <thead>
+                                    <tr>
+                                        <th> # </th>
+                                        <th> First name </th>
+                                        <th> Email </th>
+                                        <th> Contact No </th>
+                                        <th> Actions </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> 1 </td>
+                                        <td> Herman Beck </td>
+                                        <td> $ 77.99 </td>
+                                        <td> May 15, 2015 </td>
+                                        <td> May 15, 2015 </td>
+                                    </tr>
+                                    <tr>
+                                        <td> 2 </td>
+                                        <td> Messsy Adam </td>
+                                        <td> $245.30 </td>
+                                        <td> July 1, 2015 </td>
+                                        <td> July 1, 2015 </td>
+                                    </tr>
+                            
+                                </tbody>
+                            </table>
+                            </div>
+                        </div>
                         </div>
                     </div>
-                    </div>
-                </div>
               
                 </div>
             </div>
