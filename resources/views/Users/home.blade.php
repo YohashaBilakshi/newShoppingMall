@@ -31,34 +31,81 @@
         <img class="mySlides" src="{{ asset('assets/images_supermarket/super5.jpg') }}">
         <img class="mySlides" src="{{ asset('assets/images_supermarket/super6.jpg') }}">
         </div>   
+
+       
       
     </section>
-
-    <section id="items">
+    <h2 id="head2">Experience the best service with the best product</h2>
+    <section id="id_items">
 
         <div class="item1">
-            <div class="image1">
+            <div class="image">
                 <h3>Fruits</h3>
                 <img  src="{{ asset('assets/images_supermarket/super4.jpg') }}" alt="" onclick=hello()>
-                <button class="btn_item">Click</button>
+                <h4 id="item_name">Mango</h4>
+                Rs.<h5 id="item_price">250/-</h5>                
+                <button class="btn_item">Add</button>
+                
             </div>
             
-            <div class="image2">
+            <div class="image">
                 <h3>Bakery</h3>
                 <img src= "{{ asset('assets/images_supermarket/super5.jpg') }}" alt="">
-                <button class="btn_item">Click</button>
+                <h4 id="item_name">Mango</h4>
+                Rs.<h5 id="item_price">250/-</h5>  
+                <button class="btn_item">Add</button>
             </div>
             
-            <div class="image3">
+            <div class="image">
                 <h3>Meat</h3>
                 <img  src="{{ asset('assets/images_supermarket/super6.jpg') }}" alt="">
-                <button class="btn_item">Click</button>
+                <h4 id="item_name">Mango</h4>
+                Rs.<h5 id="item_price">250/-</h5>  
+                <button class="btn_item">Add</button>
             </div>
            
-            <div class="image4">
+            <div class="image">
                 <h3>Cosmatics</h3>
                 <img  src="{{ asset('assets/images_supermarket/super7.jpg') }}" alt="">
-                <button class="btn_item">Click</button>
+                <h4 id="item_name">Mango</h4>
+                Rs.<h5 id="item_price">250/-</h5>  
+                <button class="btn_item">Add</button>
+            </div>
+        </div>
+        <br>
+
+        <div class="item2">
+            <div class="image">
+                <h3>Fruits</h3>
+                <img  src="{{ asset('assets/images_supermarket/super4.jpg') }}" alt="" onclick=hello()>
+                <h4 id="item_name">Mango</h4>
+                Rs.<h5 id="item_price">250/-</h5>                
+                <button class="btn_item">Add</button>
+                
+            </div>
+            
+            <div class="image">
+                <h3>Bakery</h3>
+                <img src= "{{ asset('assets/images_supermarket/super5.jpg') }}" alt="">
+                <h4 id="item_name">Mango</h4>
+                Rs.<h5 id="item_price">250/-</h5>  
+                <button class="btn_item">Add</button>
+            </div>
+            
+            <div class="image">
+                <h3>Meat</h3>
+                <img  src="{{ asset('assets/images_supermarket/super6.jpg') }}" alt="">
+                <h4 id="item_name">Mango</h4>
+                Rs.<h5 id="item_price">250/-</h5>  
+                <button class="btn_item">Add</button>
+            </div>
+           
+            <div class="image">
+                <h3>Cosmatics</h3>
+                <img  src="{{ asset('assets/images_supermarket/super7.jpg') }}" alt="">
+                <h4 id="item_name">Mango</h4>
+                Rs.<h5 id="item_price">250/-</h5>  
+                <button class="btn_item">Add</button>
             </div>
         </div>
        
