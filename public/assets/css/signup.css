@@ -1,0 +1,41 @@
+header{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    height: 100px;
+    background: silver;
+    display: flex;
+    justify-content:space-between ;
+    
+
+}
+header h2{
+    padding: 5px;
+    right: 10px;
+    display: flex;
+    font-size:35px;
+}
+header h3{
+    margin-top: 30px;
+}
+header h3 a{
+    
+    font-size:25px;
+    color: rgb(16, 119, 119);
+    text-decoration: none;
+
+
+}
+body{
+    
+
+}
+#col_1{
+    
+}
+#col_1 input {
+    
+    width: 300px;
+    height: 35px;
+    font-size: 15px;
+}
