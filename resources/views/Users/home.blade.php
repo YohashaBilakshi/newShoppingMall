@@ -20,10 +20,7 @@
             <a href="#">Home</a>
             <a href="#id_items">Items</a>
             <a href="#">Chart</a>
-            <a href="{{ asset('resources/views/Users/signup.blade.php') }}">Login</a>
-          
-
-          
+            <a href="{{ asset('resources/views/Users/signup.blade.php') }}">Login</a>         
         </div>
     </header>
 
@@ -38,7 +35,9 @@
        
       
     </section>
+
     <h2 id="head2">Experience the best service with the best product</h2>
+
     <section id="id_items">
 
         <div class="item1">

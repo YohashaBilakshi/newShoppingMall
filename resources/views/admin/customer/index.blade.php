@@ -58,23 +58,32 @@
                                         <td> Herman Beck </td>
                                         <td> $ 77.99 </td>
                                         <td> May 15, 2015 </td>
-                                        <td> May 15, 2015 </td>
+                                        <td>
+                                            <a href="{{ route('user.edit') }}" class="btn btn-primary btn-icon-text">
+                                                Edit <i class="mdi mdi-file-check btn-icon-append"></i>
+                                            </a>
+                                            <a href="{{ route('user.edit') }}" class="btn btn-danger btn-icon-text">
+                                                Delete <i class="mdi mdi-delete"></i>
+                                            </a>
+                                        </td>
                                     </tr>
-                                    <tr>
-                                        <td> 2 </td>
-                                        <td> Messsy Adam </td>
-                                        <td> $245.30 </td>
-                                        <td> July 1, 2015 </td>
-                                        <td> July 1, 2015 </td>
-                                    </tr>
-                            
+                                 
                                 </tbody>
                             </table>
                             </div>
                         </div>
                         </div>
                     </div>
+
               
+                    <div class="modal fade" id="createUserModal" tabindex="-1" role="dialog" aria-labelledby="createUserModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered custom-modal-width" role="document">
+                            <div class="modal-content">
+                                @include('admin/customer/create')
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -85,12 +94,13 @@
 
     </div>
 
-    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
-    <script src="../../assets/js/off-canvas.js"></script>
-    <script src="../../assets/js/hoverable-collapse.js"></script>
-    <script src="../../assets/js/misc.js"></script>
-    <script src="../../assets/js/settings.js"></script>
-    <script src="../../assets/js/todolist.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+
+    <script>
+        function showCreate(){
+            $('#createUserModal').modal('show')
+        }
+    </script>
 
   </body>
 </html>

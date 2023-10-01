@@ -19,7 +19,7 @@ class AdminHomeController extends Controller
     }
 
     // public function edit($id){
-        public function edit($id){
+        public function edit(){
         // return view('admin.index'); 
         
         return view('admin.admins.edit'); 
