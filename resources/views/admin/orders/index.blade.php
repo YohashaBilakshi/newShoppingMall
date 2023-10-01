@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Corona Admin</title>
+@include('admin/layouts/headDashboard')
 
-    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
-    <link rel="stylesheet" href="../../assets/css/style.css">
-    <link rel="shortcut icon" href="../../assets/images/favicon.png" />
-
-  </head>
-  <body>
+<body>
 
     <div class="container-scroller">
 
         @include('admin/layouts/navigation')
-      
+        
         <div class="container-fluid page-body-wrapper">
             
             <div class="main-panel">
@@ -64,14 +53,14 @@
                                     <td> July 1, 2015 </td>
                                     <td> July 1, 2015 </td>
                                 </tr>
-                           
+                            
                             </tbody>
                         </table>
                         </div>
                     </div>
                     </div>
                 </div>
-              
+                
                 </div>
             </div>
 
@@ -82,12 +71,4 @@
 
     </div>
 
-    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
-    <script src="../../assets/js/off-canvas.js"></script>
-    <script src="../../assets/js/hoverable-collapse.js"></script>
-    <script src="../../assets/js/misc.js"></script>
-    <script src="../../assets/js/settings.js"></script>
-    <script src="../../assets/js/todolist.js"></script>
-
-  </body>
-</html>
+</body>
